@@ -1,0 +1,133 @@
+body{
+  background-color: darkgrey;
+}
+.container{
+  width: 100%;
+}
+.header{
+  border-radius: 0 0 6px 6px;
+}
+.logo{
+  max-width: 12rem;
+}
+.pull-right{
+  float:right;
+  vertical-align: bottom;
+}
+.icono{
+  width: 45px;
+  height: 45px;
+  margin-bottom: 10px;
+}
+.row-nav{
+  margin:0px;
+}
+.boton-nav{
+  margin: 2px;
+  padding: 0px;
+  background-color: #2941A1;
+  border-radius: 6px;
+  color:white;
+}
+.contenido{
+  padding: 0px;
+  border-right: dashed 1px black
+}
+.row-contenido{
+  margin:0px;
+}
+.contenido{
+  background-color: rgba(39,38,128,0.3);
+  padding:2px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  height: 300px;
+}
+.contenido-1 .contenido-texto{
+padding-right: 0px;
+}
+.contenido-texto{
+  height: 240px;
+  overflow: scroll;
+}
+.contenido-1 .contenido-img{
+  padding-left:0px;
+  width: 10rem;
+}
+.contenido-img img{
+  height: 10rem;
+  border-radius: 6px;
+}
+.buscador{
+  padding-top: 10px;
+  background-color: rgba(11, 119, 172, 0.5);
+  border-radius: 6px;
+}
+.buscador input{
+  border-radius: 20px !important;
+}
+
+@media (max-width:790px) {
+  .logo{
+    max-width: 10rem;
+  }
+  .icono{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 8px;
+  }
+  .boton-nav{
+    font-size: 14px;
+  }
+  .contenido{
+    background-color: rgba(39,38,128,0.3);
+    padding:2px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    height: 200px;
+  }
+  .contenido-texto{
+    font-size: 10px;
+    height: 130px;
+    overflow: scroll;
+  }
+  .contenido-img img{
+    height: 9rem;
+    border-radius: 6px;
+    max-width: 8rem;
+  }
+}
+
+@media (max-width:500px) {
+  .logo{
+    max-width: 6rem;
+  }
+  .icono{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 5px;
+  }
+  .boton-nav{
+    font-size: 10px;
+  }
+  .contenido{
+    background-color: rgba(39,38,128,0.3);
+    padding:2px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    height: 150px;
+  }
+  h4{
+    font-size: 14px;
+  }
+  .contenido-texto{
+    font-size: 6px;
+    height: 100px;
+    overflow: scroll;
+  }
+  .contenido-img img{
+    height: 5rem;
+    border-radius: 6px;
+    max-width: 5rem;
+  }
+}
