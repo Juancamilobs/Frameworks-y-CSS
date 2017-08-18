@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
     <title>MusicBlog</title>
   </head>
   <body>
@@ -15,11 +16,11 @@
             <img src="img/iconomusica.png" alt="Logo Blog Musical" class="logo">
           </div>
           <div class="col align-self-end">
-            <img src="img/fblogo.png" alt="icono facebook" class="icono  pull-right">
-            <img src="img/iglogo.png" alt="icono instagram" class="icono pull-right">
-            <img src="img/yblogo.png" alt="icono youtube" class="icono pull-right">
-            <img src="img/twlogo.png" alt="icono twitter" class="icono pull-right">
-            <img src="img/ptlogo.png" alt="icono pinterest" class="icono pull-right">
+            <a href="#"><img src="img/fblogo.png" alt="icono facebook" class="icono  pull-right"></a>
+            <a href="#"><img src="img/iglogo.png" alt="icono instagram" class="icono pull-right"></a>
+            <a href="#"><img src="img/yblogo.png" alt="icono youtube" class="icono pull-right"></a>
+            <a href="#"><img src="img/twlogo.png" alt="icono twitter" class="icono pull-right"></a>
+            <a href="#"><img src="img/ptlogo.png" alt="icono pinterest" class="icono pull-right"></a>
           </div>
         </div>
       </header>
@@ -34,7 +35,7 @@
       </nav>
 
       <div class="row row-contenido">
-        <div class="col-9 ">
+        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
           <div class="row contenido contenido-1">
             <div class="col-7">
               <h4>Nicky Jam</h4>
@@ -44,6 +45,18 @@
               </div>
             <div class="col-5 contenido-img text-center align-self-center">
               <img src="img/nickyjam.jpg" alt="imagen Nicky Jam">
+            </div>
+            <div class="row" style="width:100%">
+              <div class="col-12">
+                <div class="comentario col-12">
+                  <form >
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                      <input type="text" id="usr" class="form-control" placeholder="Comentario...">
+                    </div>
+                  </form>
+                </div>
+              </div>
             </div>
           </div>
           <div class="row contenido contenido-2">
@@ -57,14 +70,40 @@
                 El 1 de diciembre de 2014 lanzó su primer sencillo «Firestone», con la voz de Conrad (monónimo de Conrad Sewell) con el cual logró el reconocimiento internacional ubicándose en los primeros puestos en las listas europeas.3​ El 15 de marzo de 2015 lanzó su segundo sencillo, titulado «Stole the Show».4​
                 El 21 de agosto de 2016 interpretó junto a Julia Michaels «Carry Me» en la ceremonia de clausura de los Juegos Olímpicos de Río de Janeiro 2016. El 26 de Julio del 2017 lanzó su documental "Stole the Show" a través de Apple Music.</p>
               </div>
+              <div class="row" style="width:100%">
+                <div class="col-12">
+                  <div class="comentario col-12">
+                    <form >
+                      <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                        <input type="text" id="usr" class="form-control" placeholder="Comentario...">
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
           </div>
+
         </div>
 
-        <div class="col-3 buscador">
-          <div class="form-group text-center"><label for="usr">
-            <span class="glyphicon glyphicon-search"></span></label>
-            <input type="text" class="form-control" id="usr">
+
+        <div class="col buscador">
+          <form >
+            <div class="form-input busqueda">
+              <input type="text" id="usr" class="form-control" placeholder="Búsqueda">
+            </div>
+          </form>
+          <div class="row">
+            <ul class="list-group busqueda-lista">
+              <li class="list-group-item busqueda-lista-item">Nicky Jam</li>
+              <li class="list-group-item busqueda-lista-item">Kygo</li>
+              <li class="list-group-item busqueda-lista-item">Chichi Peralta</li>
+              <li class="list-group-item busqueda-lista-item">Armando Lucio</li>
+            </ul>
+
+            </div>
           </div>
+
         </div>
       </div>
 

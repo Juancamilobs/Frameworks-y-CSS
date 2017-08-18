@@ -41,7 +41,7 @@ body{
   padding:2px;
   border-radius: 6px;
   margin-bottom: 10px;
-  height: 300px;
+  min-height: 250px;
 }
 .contenido-1 .contenido-texto{
 padding-right: 0px;
@@ -57,14 +57,50 @@ padding-right: 0px;
 .contenido-img img{
   height: 10rem;
   border-radius: 6px;
+  max-width: 100%;
+}
+.comentario{
+  margin-bottom: 10px;
+  width: 100%;
+}
+.comentario input{
+  width: 100%;
+  border-radius: 10px;
+  font-size: 14px;
 }
 .buscador{
   padding-top: 10px;
   background-color: rgba(11, 119, 172, 0.5);
   border-radius: 6px;
+  min-height: 200px;
 }
 .buscador input{
   border-radius: 20px !important;
+}
+.busqueda input{
+  padding-left: 30px;
+}
+.form-input::before{
+  content: "\f002";
+  position:absolute;
+  font-family: "FontAwesome";
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  color: grey;
+}
+.busqueda-lista{
+width: 100%;
+padding-left: 15px;
+padding-right: 15px;
+font-size: 14px;
+margin-top: 10px;
+
+}
+.busqueda-lista-item{
+  margin: 2px;
+  border-radius: 20px !important;
+  color: grey;
 }
 
 @media (max-width:790px) {
@@ -84,7 +120,7 @@ padding-right: 0px;
     padding:2px;
     border-radius: 6px;
     margin-bottom: 10px;
-    height: 200px;
+    min-height: 200px;
   }
   .contenido-texto{
     font-size: 10px;
@@ -94,7 +130,24 @@ padding-right: 0px;
   .contenido-img img{
     height: 9rem;
     border-radius: 6px;
-    max-width: 8rem;
+    max-width: 9rem;
+  }
+  .comentario input{
+    font-size: 10px;
+    height: 30px;
+  }
+  .comentario span{
+    height: 25px;
+    height: 30px;
+  }
+  .busqueda-lista{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 10px;
+  margin-top: 10px;
+
   }
 }
 
@@ -115,7 +168,7 @@ padding-right: 0px;
     padding:2px;
     border-radius: 6px;
     margin-bottom: 10px;
-    height: 150px;
+    min-height: 150px;
   }
   h4{
     font-size: 14px;
@@ -128,6 +181,40 @@ padding-right: 0px;
   .contenido-img img{
     height: 5rem;
     border-radius: 6px;
-    max-width: 5rem;
+    max-width: 100%;
+  }
+  .comentario input{
+    font-size: 8px;
+    height: 25px;
+  }
+  .comentario span{
+    height: 25px;
+  }
+  .busqueda input{
+    height: 30px;
+    font-size: 12px;
+  }
+  .form-input::before{
+    content: "\f002";
+    position:absolute;
+    font-family: "FontAwesome";
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    color: grey;
+  }
+  .busqueda-lista{
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 8px;
+  margin-top: 10px;
+  }
+  .busqueda-lista li{
+    height: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
   }
 }
