@@ -1,0 +1,60 @@
+body{
+  background-image: url("../img/fondo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.contenedor{
+  background-color: rgba(55, 89, 139, 0.8);
+  margin: 10px;
+}
+.cabecera{
+  border-bottom: 1px dashed darkgrey;
+  border-collapse: collapse;
+}
+.titulo{
+  color: lightgrey;
+  border-right: 1px dashed darkgrey;
+
+}
+.slogan{
+  padding-right: 10px;
+  border-bottom: 1px dashed darkgrey;
+  border-collapse: collapse;
+}
+.slogan h6{
+  font-style: italic !important;
+}
+.sidebar{
+  background-color: rgb(55, 89, 139);
+  margin: 5px;
+
+}
+
+.buscador{
+  padding: 10px;
+
+}
+.buscador input{
+  border-radius: 15px 0 0 15px !important;
+  height: 30px;
+  font-size: 12px;
+}
+.buscador span{
+  border-radius: 0 15px  15px 0 !important;
+}
+.navegador a{
+  color: lightgrey;
+}
+.navegador li{
+  list-style: none;
+}
+
+@media (max-width:500px) {
+  .titulo {
+    font-size: 12px;
+  }
+  .slogan h6{
+    font-size: 10px;
+  }
+}
