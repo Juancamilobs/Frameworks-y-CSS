@@ -12,7 +12,7 @@
   <body>
     <div class="grid-container contenedor">
       <div class="grid-x grid-padding-x cabecera">
-        <div class="small-4 medium-5 titulo text-center cell">
+        <div class="small-12 medium-6 large-7 titulo text-center cell">
           <h1><strong>GastroBlog</strong></h1>
           <div class="small-12 text-right slogan">
             <h6>Tu Blog, Tu Comida</h6>
@@ -21,7 +21,8 @@
       </div>
 
       <div class="grid-x grid-margin-x contenido">
-        <div class="small-4 medium-5 sidebar cell">
+
+        <div class="small-12 medium-5 sidebar cell">
           <div class="row buscador">
             <form>
               <div class="input-group">
@@ -30,19 +31,174 @@
               </div>
             </form>
             <div class="navegador">
-              <ul class="side-nav">
-                <li><a href="#"><strong>Mis Platos Perfectos</strong></a></li>
-                <li><a href="#"><strong>Mis Recetas</strong></a></li>
-                <li><a href="#"><strong>Favoritos</strong></a></li>
-              </ul>
+              <div class="small-12 cell">
+                <a href="#"><strong>Mis Platos Perfectos</strong></a>
+              </div>
+              <div class="small-12 cell">
+                <a href="#"><strong>Mis Recetas</strong></a>
+              </div>
+              <div class="small-12 cell">
+                <a href="#"><strong>Favoritos:</strong></a>
+              </div>
+                <div class="grid-x">
+                  <div class="small-4 cell favoritos-img">
+                    <img src="img/favoritos1.jpg" alt="Mi Favorito 1">
+                  </div>
+                  <div class="small-4 cell favoritos-img">
+                    <img src="img/favoritos2.jpg" alt="Mi Favorito 2">
+                  </div>
+                  <div class="small-4 cell favoritos-img">
+                    <img src="img/favoritos3.jpg" alt="Mi Favorito 3">
+                  </div>
+                </div>
+                <div class="grid-x">
+                  <div class="small-4 cell favoritos-img">
+                    <img src="img/favoritos4.jpg" alt="Mi Favorito 4">
+                  </div>
+                  <div class="small-4 cell favoritos-img">
+                    <img src="img/favoritos5.jpg" alt="Mi Favorito 5">
+                  </div>
+                  <div class="small-4 cell favoritos-img">
+                    <img src="img/favoritos6.jpg" alt="Mi Favorito 6">
+                  </div>
+                </div>
+                <div class="small-12 cell historial">
+                  <strong>Historial:</strong>
+                  <ul style="list-style:none;" class="text-center">
+                    <li><a href="#" class="historial-item">Pollo al limon</a></li>
+                    <li><a href="#" class="historial-item">Pasta Carbonara</a></li>
+                    <li><a href="#" class="historial-item">Mojito Crush</a></li>
+                    <li><a href="#" class="historial-item">Olivia Salt</a></li>
+                    <li><a href="#" class="historial-item">Arepa Paisa</a></li>
+                    <li><a href="#" class="historial-item">Lomo Saltado</a></li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="small-12 medium-7 cell">
+          <div class="row publicaciones">
+            <div class="small-12 publicacion">
+              <h4 class="publicacion-titulo"><strong>Pollo al limón</strong></h4>
+              <div class="publicacion-fechaentrada">
+                <p class="publicacion-fechaentrada">Fecha de entrada: Febrero 2 - 2017</p>
+              </div>
+              <div class="publicacion-img">
+              <img src="img/publicacion1.jpg" alt="Publicación 1">
+              </div>
+              <div class="publicacion-texto">
+                El pollo al limon es una receta, facil, comoda y rápida de realizar. Para conseguirlo solo necesitas: Pollo, limon, especias (a tu gusto)
+                y mantequilla. Lo primero que debes hacer es quitar toda la piel del pollo y dejarlo "abierto". Una vez este listo, debes bañar el pollo en
+                todo el limon que consideres necesario (recuerda que el secreto de la cocina está en la abundancia de los implementos). <br>
+                Dejarlo reposar por maximo 2 horas, en temperatura
+                ambiente. Posterior a esto, debes precalentar el horno a 180°C, no olvides untar mantequilla en toda le refractaría, esto evitará que el pollo se pegue.
+                Hornea el pollo por 45 minutos y despues voltea todas las piezas, hornea de nuevo por 45 minutos. Antes de servir asegurate que el pollo este bien cocinado y haz la decoración
+                que se te ocurra. El ultimo y mas importante paso, es DISFRUTAR!
+              </div>
+              <div class="publicacion-comentario">
+                <form>
+                  <div class="input-group">
+                    <input type="text" name="comentario" placeholder="Que opinas de esta receta..." class="input-group-field">
+                    <span class="input-group-label"><i class="fi-comment size-14"></i></span>
+                  </div>
+                </form>
+              </div>
+              <div class="divider"></div>
+              <div class="publicacion-historialcomentarios">
+
+                <div class="historialcomentarios-item">
+                  <div class="grid-x info">
+                    <div class="small-3 info-img">
+                        <img src="img/usuario.jpg" alt="Usuario">
+                    </div>
+                    <div class="small-9  info-datos">
+                      <div class="small-12 info-usuario">
+                        Maria Catalina Azuero
+                      </div>
+                      <div class="small-12 info-fecha">
+                        marzo 5 - 2017 14:25pm
+                      </div>
+                    </div>
+                  </div>
+                  <div class="small-12 historialcomentarios-texto">
+                    Es una receta muy facil!!!! Mi familia quedó muy satisfecha!!!
+                  </div>
+                </div>
+                <div class="historialcomentarios-item">
+                  <div class="grid-x info">
+                    <div class="small-3 info-img">
+                        <img src="img/usuario.jpg" alt="Usuario">
+                    </div>
+                    <div class="small-9  info-datos">
+                      <div class="small-12 info-usuario">
+                        Alvaro José Benavides
+                      </div>
+                      <div class="small-12 info-fecha">
+                        marzo 25 - 2017 18:45pm
+                      </div>
+                    </div>
+                  </div>
+                  <div class="small-12 historialcomentarios-texto">
+                    La probé y me encantó!!! Ahora hago esta receta una vez a la semana
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="small-12 publicacion">
+              <h4 class="publicacion-titulo"><strong>Mojito CRUSH</strong></h4>
+              <div class="publicacion-fechaentrada">
+                <p class="publicacion-fechaentrada">Fecha de entrada: Junio 25 - 2017</p>
+              </div>
+              <div class="publicacion-img">
+              <img src="img/publicacion2.jpeg" alt="Publicación 2">
+              </div>
+              <div class="publicacion-texto">
+                Como el final del verano se acerca rápidamente, estoy saboreando hasta la última gota de sol y buen tiempo que tenemos. Mañana es el primer día oficial del otoño y estoy protestando con este mojito de menta clásico.
+                Me encanta la menta y me encantan los mojitos. He tenido mucha práctica para perfeccionar esta bebida. También los hace mi novio, que me los hace de vez en cuando.
+                Suelo hacer una versión particular un poco diferente de las otras recetas. En lugar de poner directamente el azúcar en el vaso, hago un simple jarabe con azúcar y un poco de agua.
+                Es una mezcla de azúcar y agua que se calienta a fuego lento. Una vez que el agua está caliente, el azúcar se disuelve. Así no te quedará todo el azúcar en el fondo del vaso, y tu mojito será super dulce.
+                También me gusta machacar la lima junto con las hojas de menta en lugar de simplemente exprimir el jugo de la lima en el vaso. Extrae mucho más sabor y jugo de la lima como sea posible.
+                Este sencillo cóctel es muy fácil de hacer. El jarabe es simplemente dar un hervor, machacar la lima y las hojas d menta, añadir el ron y el agua con gas. Hielo picado y ¡a disfrutar!
+              </div>
+              <div class="publicacion-comentario">
+                <form>
+                  <div class="input-group">
+                    <input type="text" name="comentario" placeholder="Que opinas de esta receta..." class="input-group-field">
+                    <span class="input-group-label"><i class="fi-comment size-14"></i></span>
+                  </div>
+                </form>
+              </div>
+              <div class="divider"></div>
+              <div class="publicacion-historialcomentarios">
+
+                <div class="historialcomentarios-item">
+                  <div class="grid-x info">
+                    <div class="small-3 info-img">
+                        <img src="img/usuario.jpg" alt="Usuario">
+                    </div>
+                    <div class="small-9  info-datos">
+                      <div class="small-12 info-usuario">
+                        Maria Catalina Azuero
+                      </div>
+                      <div class="small-12 info-fecha">
+                        Julio 10 - 2017 08:13pm
+                      </div>
+                    </div>
+                  </div>
+                  <div class="small-12 historialcomentarios-texto">
+                    Excelente para la fiesta de anoche!! Gracias por compartir sus recetas!
+                  </div>
+                </div>
+
+              </div>
             </div>
 
           </div>
-
         </div>
-        <div class="small-8 medium-7 publicaciones">
 
-        </div>
       </div>
     </div>
   </body>

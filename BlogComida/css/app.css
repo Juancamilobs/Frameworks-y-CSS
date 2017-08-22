@@ -2,11 +2,15 @@ body{
   background-image: url("../img/fondo.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
+  color:lightgrey;
 }
 .contenedor{
   background-color: rgba(55, 89, 139, 0.8);
   margin: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
 }
 .cabecera{
   border-bottom: 1px dashed darkgrey;
@@ -15,11 +19,10 @@ body{
 .titulo{
   color: lightgrey;
   border-right: 1px dashed darkgrey;
-
 }
 .slogan{
   padding-right: 10px;
-  border-bottom: 1px dashed darkgrey;
+
   border-collapse: collapse;
 }
 .slogan h6{
@@ -28,12 +31,11 @@ body{
 .sidebar{
   background-color: rgb(55, 89, 139);
   margin: 5px;
-
+  margin-bottom: 15px;
 }
-
 .buscador{
   padding: 10px;
-
+  height: 600px;
 }
 .buscador input{
   border-radius: 15px 0 0 15px !important;
@@ -46,15 +48,154 @@ body{
 .navegador a{
   color: lightgrey;
 }
-.navegador li{
-  list-style: none;
+.favoritos-img{
+  padding: 5px;
+  height: 70px;
+  text-align: center;
+}
+.favoritos-img img{
+  width: 80%;
+  height: 95%;
+}
+.historial-item{
+  font-size: 14px;
+  margin: 5px;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+.publicaciones{
+  margin-left: auto;
+  margin-right: auto;
+  overflow: scroll;
+  height: 600px;
+}
+.publicacion{
+  background-color: rgb(55, 89, 139);
+  margin: 5px;
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+.publicacion-titulo{
+  text-shadow: 3px 3px black;
+  margin-bottom: 0px;
+}
+.publicacion-fechaentrada{
+  font-size: 0.6rem;
+  color: black;
+  margin-bottom: 0px;
+}
+.publicacion-img{
+  text-align: center;
+  padding:10px;
+}
+.publicacion-img img{
+  min-height: 200px;
+  border-radius: 8px !important;
+}
+.publicacion-texto{
+  text-align: justify;
+  padding: 15px;
+  color: darkgrey;
+  font-size: 14px;
+}
+.publicacion-comentario{
+  padding: 0 15px 15px 15px;
+}
+.publicacion-comentario input{
+  border-radius: 10px 0 0 10px !important;
+}
+.publicacion-comentario span{
+    border-radius: 0 10px 10px 0 !important;
+}
+.input-group{
+  margin-bottom: 0px !important;
+}
+.divider{
+    border-bottom: 2px solid lightgrey;
+}
+.historialcomentarios-item{
+  border-bottom: 1px dashed darkgrey;
+  padding: 10px;
+}
+.info{
+  display: inline-flex;
+}
+.info-img{
+  width: 45px;
+  height: 45px;
+}
+.info-img img{
+  border-radius: 30px;
+  min-width: 45px;
+  height: 45px;
+}
+.info-usuario{
+  padding-left: 5px;
+  color: darkgrey;
+  font-size: 14px;
+}
+.info-fecha{
+  padding-left: 5px;
+  color: darkgrey;
+  font-size: 12px;
 }
 
 @media (max-width:500px) {
   .titulo {
-    font-size: 12px;
+    font-size: 20px;
   }
   .slogan h6{
+    font-size: 14px;
+  }
+  .buscador{
+    height: 100%;
+    
+  }
+  .buscador input{
+    height: 18px;
+    font-size: 8px;
+  }
+  .buscador span{
+    height: 18px;
+  }
+  .navegador a{
+    font-size: 12px;
+  }
+  .publicaciones{
+    height: 100%;
+    overflow: visible;
+  }
+  .publicacion-texto{
+    font-size: 12px;
+  }
+  .publicacion-comentario input{
+    height: 25px;
+    font-size: 12px
+  }
+  .input-group{
+    margin-bottom: 0px !important;
+  }
+  .publicacion-comentario span{
+    height: 25px;
+  }
+  .info-img img{
+    border-radius: 30px;
+    min-width: 35px;
+    height: 35px;
+  }
+  .info-usuario{
+    padding-left: 5px;
+    color: darkgrey;
+    font-size: 12px;
+  }
+  .info-fecha{
+    padding-left: 5px;
+    color: darkgrey;
     font-size: 10px;
+  }
+  .historialcomentarios-item{
+    font-size: 12px;
   }
 }
