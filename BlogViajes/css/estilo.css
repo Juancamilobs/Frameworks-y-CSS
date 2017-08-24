@@ -1,0 +1,89 @@
+body{
+
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+.topbar{
+  height: 130px;
+}
+.logo{
+   text-align: center;
+}
+.logo img{
+  height: 130px;
+}
+.botones{
+    padding: 5px !important;
+}
+.botones a{
+  width: 100%;;
+}
+.botones i{
+  position: relative;
+  top: 4px;
+}
+.slogan{
+  font-style: italic;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+@media (max-width:800px) {
+  .topbar{
+    height: 110px;
+  }
+  .logo img{
+    margin-top: 10px;
+    height: 90px;
+  }
+  .botones{
+    text-align: left;
+  }
+  .botones a{
+    width: 80%;
+    height: 35px;
+  }
+  .botones i{
+    font-size: 16px !important;
+    height: 25px;
+    position: relative;
+    top: -1px;
+  }
+  .slogan{
+    font-size: 12px;
+    text-align: left;
+    text-shadow: 1px 1px black;
+  }
+}
+@media (max-width:500px) {
+  .topbar{
+    height: 80px;
+  }
+  .logo{
+    text-align: left
+  }
+  .logo img{
+    margin-top: 5px;
+    height: 55px;
+  }
+  .botones{
+    text-align: left;
+  }
+  .botones a{
+    width: 80%;
+    height: 25px;
+  }
+  .botones i{
+    font-size: 12px !important;
+    height: 25px;
+    position: relative;
+    top: -5px;
+  }
+  .slogan{
+    font-size: 10px;
+    text-align: left;
+    text-shadow: 1px 1px black;
+  }
+}
